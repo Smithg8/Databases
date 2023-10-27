@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T14:05:55.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="SxuUkK2Zm6gth6EpgJhr" version="22.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-27T14:07:30.772Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="qHMchmq_s9-Ks2f2zeQu" version="22.0.6" type="github" pages="2">
   <diagram name="ERD" id="B3uiDc8BCZwYj67l_rV6">
     <mxGraphModel dx="1245" dy="552" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -524,20 +524,8 @@
             <mxPoint x="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ptD6OZxUXEIBR8QLuf2V-3" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Board_of_Directors&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Director_ID&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;First_Name&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Last_Name&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Position&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Email&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Seat No&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1035" y="134" width="135" height="176" as="geometry" />
-        </mxCell>
-        <mxCell id="ptD6OZxUXEIBR8QLuf2V-5" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Stadium&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Seat_No&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Capacity&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;Section&lt;br&gt;Gate&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1188" y="134" width="180" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="ptD6OZxUXEIBR8QLuf2V-6" value="Gate" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="306" y="920" width="74" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="ptD6OZxUXEIBR8QLuf2V-8" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Finance_Team&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Finance_ID&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/td&gt;&lt;td&gt;First_Name&lt;br&gt;Last_Name&lt;br&gt;Email&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1035" y="327" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="b-6N9gmP39iT4xV7Av2K-1" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Fans&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Membership_ID&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;Email&lt;br&gt;First_Name&lt;br&gt;Last_Name&lt;br&gt;D.O.B&lt;br&gt;Player_ID&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1224" y="242" width="171" height="175" as="geometry" />
         </mxCell>
         <mxCell id="TKGKiHSyEKXhRw3OB2cC-1" value="Fans" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fillColor=#80FF84;" vertex="1" parent="1">
           <mxGeometry x="19" y="270" width="100" height="40" as="geometry" />
